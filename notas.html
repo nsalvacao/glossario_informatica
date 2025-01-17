@@ -1,0 +1,185 @@
+<!-- Página: Notas Sobre o Trabalho -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Notas Sobre o Trabalho</title>
+    
+    <!-- Estilos Inline -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            line-height: 1.7;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            line-height: 1.8;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho Principal -->
+    <header>
+        <h1>Notas Sobre o Trabalho</h1>
+        <p>Detalhamento técnico, explicações e suporte à implementação do projeto.</p>
+    </header>
+    
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <!-- Seção Principal: Introdução -->
+        <section>
+            <h2>📌 Introdução</h2>
+            <p>Esta página documenta o processo de desenvolvimento do site <strong>Glossário de Informática</strong>, explicando as decisões técnicas tomadas, as dificuldades encontradas e as soluções implementadas.</p>
+        </section>
+        
+        <!-- Seção: Processo de Investigação -->
+        <section>
+            <h2>🛠️ Processo de Investigação</h2>
+            <p>Durante a implementação do site, foram consultadas diversas fontes para garantir as melhores práticas em HTML e CSS, incluindo:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a> - Referência oficial para HTML e CSS.</li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a> - Exemplos práticos e guias interativos.</li>
+                <li>Fóruns como Stack Overflow para solução de problemas específicos.</li>
+            </ul>
+            <p>Principais desafios enfrentados e soluções:</p>
+            <ul>
+                <li>No início, tentei usar "iframe" para embutir um vídeo do <strong>Lumen5</strong>, mas a plataforma não permitia. A solução encontrada foi substituir por uma imagem com um link clicável.</li>
+                <li>Ajustar os espaçamentos entre seções foi um desafio. Após testes, descobri que a melhor abordagem era adicionar espaçamento entre caixas de texto ajustado-o com <code>margin-bottom</code> e <code>line-height</code>.</li>
+                <li>A centralização de vídeos foi feita com <code>display: flex; justify-content: center;</code>.</li>
+            </ul>
+        </section>
+        
+        <!-- Seção: Lista de Comandos HTML e CSS -->
+        <section>
+            <h2>📋 Lista de Comandos e Estilos Utilizados</h2>
+            <table>
+                <tr>
+                    <th>Tag/Comando</th>
+                    <th>Descrição/Utilização</th>
+                </tr>
+                <tr>
+                    <td>&lt;!DOCTYPE html&gt;</td>
+                    <td>Define que o documento segue a especificação HTML5.</td>
+                </tr>
+                <tr>
+                    <td>&lt;html lang="pt"&gt;</td>
+                    <td>Define o idioma principal da página como português.</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta charset="UTF-8"&gt;</td>
+                    <td>Garante a correta exibição de caracteres acentuados.</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt; e &lt;ul&gt; &lt;li&gt;</td>
+                    <td>Estrutura a navegação do site em forma de menu.</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Utilizada para dividir blocos de conteúdo na página.</td>
+                </tr>
+                <tr>
+                    <td>&lt;iframe&gt;</td>
+                    <td>Usado para incorporar vídeos do YouTube e outras mídias.</td>
+                </tr>
+                <tr>
+                    <td>CSS: <code>display: flex; justify-content: center;</code></td>
+                    <td>Centraliza elementos horizontalmente.</td>
+                </tr>
+                <tr>
+                    <td>CSS: <code>margin-bottom: 10px;</code></td>
+                    <td>Cria espaçamento entre os parágrafos.</td>
+                </tr>
+                <tr>
+                    <td>CSS: <code>box-shadow: 0 0 10px rgba(0,0,0,0.1);</code></td>
+                    <td>Cria um efeito de sombra para realçar caixas de conteúdo.</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Seção: Reflexão Final -->
+        <section>
+            <h2>💡 Reflexão Final</h2>
+            <p>Este projeto permitiu consolidar conhecimentos sobre HTML e CSS, especialmente na organização do layout e no uso de flexbox para alinhar conteúdos. O desafio mais interessante foi garantir um design responsivo sem utilizar CSS externo. No futuro, uma possível melhoria seria a implementação de JavaScript para interatividade.</p>
+        </section>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Glossário de Informática * UFCD 5097 - História da Informática</p>
+    </footer>
+</body>
+</html>
