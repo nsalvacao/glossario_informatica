@@ -61,5 +61,6 @@ Faz um push para o teu repositório:
 
 git push origin melhoria-glossario
 Abre um Pull Request para análise!
+
 📝 Licença
 Este projeto é de uso educacional e está disponível sob a licença MIT.
